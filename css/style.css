@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#wrap{
+    width: 100%;
+}
+.inner{
+    width: 1240px;
+    margin: 0 auto;
+}
+/****************************/
+/****** header ******/
+header{
+    width: 100%;
+    height: 130px;
+    padding-top: 35px;
+}
+
+header #logo{
+    float: left;
+    margin-right: 70px;
+}
+header #logo img{
+    width: 150px;
+}
+header nav ul li{
+    float: left;
+    padding-right: 48px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+header nav ul li:first-child{
+    color: #1501A0;
+}
+header nav ul li a:hover{
+    color: #1501A0;
+}
+header .util{
+    float: right;
+    margin-top: 20px;
+}
+header .util a{
+    padding-left: 15px;
+}
+
+
+/****** sec01 ******/
+#sec01{
+    clear: both;
+    text-align: center;
+    background-image: url(../img/main01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    color: #fff;
+    min-width: 1240px;
+}
+#sec01 h2{
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    top: 35%;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+#sec01 p{
+    position: relative;
+    top: 35%;
+    font-size: 2rem;
+}
+
+/****** sec02 ******/
+#sec02 ul{
+    background-color: #fff;
+    box-shadow: 0 25px 25px rgba(0,0,0,0.1);
+    height: 180px;
+    border-radius: 150px;
+    padding: 35px 0;
+    padding-left: 60px;
+    position: relative;
+    margin-top: -90px;
+}
+#sec02 ul li{
+    float: left;
+    width: calc(100% / 3);
+    height: 110px;
+    padding-left: 150px;
+}
+
+#sec02 ul li:first-child{
+    background-image: url(../img/ic_main1.png);
+    background-repeat: no-repeat;
+}
+#sec02 ul li:nth-child(2){
+    background-image: url(../img/ic_main2.png);
+    background-repeat: no-repeat;
+}
+#sec02 ul li:last-child{
+    background-image: url(../img/ic_main3.png);
+    background-repeat: no-repeat;
+}
+#sec02 h3{
+    font-size: 1.5rem;
+}
+#sec02 p{
+    color: #777;
+    padding: 6px 0;
+    font-size: 1.1rem;
+}
+#sec02 a{
+    font-size: 1.1rem;
+}
+#sec02 a:after{
+    content: url(../img/ic_arrow1.png);
+    padding-left: 10px;
+}
+
+/****** sec03 *******/
+#sec03{
+    clear: both;
+    padding: 150px 0;
+}
+h4{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-bottom: 85px;
+    color: #251F5D;
+   
+}
+#sec03 ul{
+    height: 400px;
+    margin-top: -30px;
+}
+#sec03 ul li{
+    float: left;
+    width: 265px;
+    margin-right: 60px;
+    position: relative;
+}
+#sec03 ul li:last-child{
+    margin-right: 0;
+}
+#sec03 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 70px;
+    font-weight: 400;
+    color: #777;
+}
+/******* 추가 시작 ********/
+#sec03 .click{
+    background-color: #251F5D;
+    border-radius: 50%;
+    background-image: url(../img/click.png);
+    background-repeat: no-repeat;
+    background-position: center 17px;
+    text-align: center;
+    padding-top: 65px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%; top: 250px;
+    opacity: 0;
+}
+
+#sec03 ul li:hover .click{
+    opacity: 1;
+    transition: 0.7s;
+    top: 150px;
+}
+#sec03 ul li:hover img{
+    box-shadow:  0 20px 30px rgba(0,0,0,0.3);
+    border-top-left-radius: 20%;
+    transform: scale(120%,120%);
+    transition: 1s;
+}
+/******* 추가 끝 ********/
+
+/******** sec04 *******/
+#sec04{
+    clear: both;
+    background-image: url(../img/main_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    min-width: 1240px;
+}
+#sec04 ul{
+    float: right;
+    position: relative;
+    bottom: -350px;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: right;
+    font-weight: 300;
+}
+#sec04 ul li{
+    float: left;
+    padding-right: 25px;
+}
+#sec04 a{
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-weight: 500;
+    position: relative;
+    bottom: -15px;
+}
+#sec04 a:hover{
+    background-color: #C80F0C;
+    color: #fff;
+}
+
+/******** sec05 *******/
+#sec05{
+    padding: 150px 0;
+}
+#sec05 ul{
+    height: 400px;
+}
+#sec05 ul li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+#sec05 ul li:last-child{
+    margin-right: 0;
+}
+#sec05 ul li a{
+    display: block;
+}
+#sec05 p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #777;
+    padding-top: 10px;
+}
+
+/******** 추가 시작 *******/
+#sec05 ul li span{
+    position: absolute;
+    left:110px;
+    color: #fff;
+    font-size: 2.3rem;
+    opacity: 0;
+    text-align: center;
+    line-height: 1.2;
+    padding: 0 20px;
+}
+
+#sec05 ul li:hover img{
+    transform: scale(130%,130%);
+    transition: 1s;
+}
+#sec05 ul li a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 360px;
+    opacity: 0;
+}
+
+#sec05 ul li:hover a::before{
+    content: "";
+    opacity: 0.5;
+    transition: 1s;
+    z-index: 99;
+    transform: scale(130%,130%);
+}
+#sec05 ul li:hover span{
+    opacity: 1;
+    transition: 0.7s;
+    z-index: 100;
+    top: 180px;;
+    transform: translateY(-45%);
+}
+#sec05 ul li:hover{z-index: 99;}
+/******** 추가 끝 *******/
+
+
+/******** sec06 ******/
+#sec06{
+    clear: both;
+}
+#sec06 ul li{
+    position: relative;
+}
+#sec06 ul li:first-child{
+    background-image: url(../img/banner01.png);
+    background-repeat: no-repeat;
+    background-color: #ECEAEB;
+    background-position: 30px 3px;
+    border-radius: 15px;
+    float: left;
+    height: 110px;
+    width: 610px;
+}
+#sec06 ul li:last-child{
+    background-image: url(../img/banner02.png);
+    background-repeat: no-repeat;
+    background-color: #ECEAEB;
+    background-position: 15px;
+    border-radius: 15px;
+    float: right;
+    height: 110px;
+    width: 610px;
+}
+#sec06 a{
+    display: block;
+    float: right;
+    padding:20px 0;
+    padding-right: 60px;
+}
+#sec06 span{
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    display: inline-block;
+}
+/******** 추가 시작 *******/
+#sec06 ul li:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+/******** footer ******/
+footer{
+    clear: both;
+    background-color: #ECEAEB;
+    height: 450px;
+    margin-top: 280px;
+}
+footer a{
+    display: block;
+}
+footer ul{
+    padding: 45px 0;
+}
+footer .top .left{
+    float: left;
+}
+footer .top .left li{
+    float: left;
+    padding-right: 40px;
+}
+footer .top .right{
+    float: right;
+}
+footer .top .right li{
+    float: left;
+    padding-left: 40px;
+}
+footer span{
+    font-weight:700;
+}
+footer .bot{
+    clear: both;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+}
+footer .bot img{
+    width: 120px;
+}
+footer .bot p{
+    line-height: 1.3;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+/*******quick-menu*****/
+.support{
+    background-color: #251F5D;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 0 25px 30px rgba(0,0,0,0.2);
+    background-image: url(../img/quick\ menu.png);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: 32px 40px;
+    position: fixed;
+    right:60px;
+    bottom: 60px;
+}
